@@ -18,6 +18,10 @@
 		F72FB5A920B3E63500E63D0E /* FamilyMessengerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72FB5A820B3E63500E63D0E /* FamilyMessengerTests.swift */; };
 		F72FB5B420B3E63500E63D0E /* FamilyMessengerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72FB5B320B3E63500E63D0E /* FamilyMessengerUITests.swift */; };
 		F740C9AA20B3E8E0009AB572 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F740C9A920B3E8DF009AB572 /* GoogleService-Info.plist */; };
+		F7D64F5420B524540025764B /* Family.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D64F5020B524530025764B /* Family.swift */; };
+		F7D64F5520B524540025764B /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D64F5120B524540025764B /* Photo.swift */; };
+		F7D64F5620B524540025764B /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D64F5220B524540025764B /* Comment.swift */; };
+		F7D64F5720B524540025764B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D64F5320B524540025764B /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +64,10 @@
 		F72FB5B320B3E63500E63D0E /* FamilyMessengerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyMessengerUITests.swift; sourceTree = "<group>"; };
 		F72FB5B520B3E63500E63D0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F740C9A920B3E8DF009AB572 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F7D64F5020B524530025764B /* Family.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Family.swift; sourceTree = "<group>"; };
+		F7D64F5120B524540025764B /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		F7D64F5220B524540025764B /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		F7D64F5320B524540025764B /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		FEB19EA1EE2A22FFB0D58A13 /* Pods_FamilyMessengerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FamilyMessengerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -139,6 +147,7 @@
 		F72FB59220B3E63500E63D0E /* FamilyMessenger */ = {
 			isa = PBXGroup;
 			children = (
+				F7D64F5820B5248E0025764B /* Model */,
 				F72FB59320B3E63500E63D0E /* AppDelegate.swift */,
 				F72FB59520B3E63500E63D0E /* ViewController.swift */,
 				F740C9A920B3E8DF009AB572 /* GoogleService-Info.plist */,
@@ -166,6 +175,17 @@
 				F72FB5B520B3E63500E63D0E /* Info.plist */,
 			);
 			path = FamilyMessengerUITests;
+			sourceTree = "<group>";
+		};
+		F7D64F5820B5248E0025764B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F7D64F5220B524540025764B /* Comment.swift */,
+				F7D64F5020B524530025764B /* Family.swift */,
+				F7D64F5120B524540025764B /* Photo.swift */,
+				F7D64F5320B524540025764B /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -390,8 +410,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7D64F5620B524540025764B /* Comment.swift in Sources */,
+				F7D64F5520B524540025764B /* Photo.swift in Sources */,
+				F7D64F5720B524540025764B /* User.swift in Sources */,
 				F72FB59620B3E63500E63D0E /* ViewController.swift in Sources */,
 				F72FB59420B3E63500E63D0E /* AppDelegate.swift in Sources */,
+				F7D64F5420B524540025764B /* Family.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
