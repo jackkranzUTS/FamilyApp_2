@@ -12,10 +12,13 @@ class Comment{
     
     var text:String
     var user:User
+    var timeStamp:NSDate
     
-    init(comment:String,poster:User){
+    init(comment:String,poster:User,time:NSDate){
         text = comment
         user = poster
+        timeStamp = time
+        
     }
     
 }

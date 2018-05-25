@@ -13,9 +13,12 @@ class Photo{
     var image:UIImage
     var photoUrl:NSURL
     var comments: [Comment] = []
+    var timeStamp:NSDate
     
-    init(photo:UIImage,url:NSURL){
+    init(photo:UIImage,url:NSURL,time:NSDate){
         photoUrl = url
         image = photo
+        timeStamp = time
+    
     }
 }
