@@ -10,16 +10,18 @@ import Foundation
 import UIKit
 class Photo{
     
+    let id:Int
     var image:UIImage
     var photoUrl:NSURL
     var timeStamp:NSDate
     var posterId:Int
     
-    init(photo:UIImage,url:NSURL,time:NSDate,id:Int){
+    init(photo:UIImage,url:NSURL,time:NSDate,id:Int,photoId:Int){
         photoUrl = url
         image = photo
         timeStamp = time
         posterId = id
+        id = photoId
     
     }
 }
