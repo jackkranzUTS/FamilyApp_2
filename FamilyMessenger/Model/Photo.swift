@@ -12,13 +12,14 @@ class Photo{
     
     var image:UIImage
     var photoUrl:NSURL
-    var comments: [Comment] = []
     var timeStamp:NSDate
+    var posterId:Int
     
-    init(photo:UIImage,url:NSURL,time:NSDate){
+    init(photo:UIImage,url:NSURL,time:NSDate,id:Int){
         photoUrl = url
         image = photo
         timeStamp = time
+        posterId = id
     
     }
 }

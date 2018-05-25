@@ -10,13 +10,13 @@ import Foundation
 
 class Family{
     
-    var members: [User] = []
+    var memberIds: [Int] = []
     var familyName:String
     
-    init(name:String,firstuser:User){
+    init(name:String,firstuser:Int){
         
         familyName = name
-        members.append(firstuser)
+        memberIds.append(firstuser)
     }
     
 }
