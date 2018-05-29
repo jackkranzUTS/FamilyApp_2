@@ -9,17 +9,16 @@
 import Foundation
 class User{
     
-    let id:Int
-    let username:String
-    var familyId:Int
-    var profilePicId:Int
+    var username:String
+    var authID:String?
+    var family:String
+    var profilePic:String
     
-    init(userId:Int,name:String,family:Int,pic:Int){
+    init(usernameReference:String,familyReference:String,profilePicReference:String){
         
-        id = userId
-        username = name
-        familyId = family
-        profilePicId = pic
+        username = usernameReference
+        family = familyReference
+        profilePic = profilePicReference
         
         
     }

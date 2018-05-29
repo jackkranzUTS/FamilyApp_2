@@ -10,18 +10,16 @@ import Foundation
 import UIKit
 class Photo{
     
-    let id:Int
-    var image:UIImage
-    var photoUrl:NSURL
+    var image:UIImage?
+    var photo:String
     var timeStamp:NSDate
-    var posterId:Int
+    var owner:String
     
-    init(photo:UIImage,url:NSURL,time:NSDate,id:Int,photoId:Int){
-        photoUrl = url
-        image = photo
-        timeStamp = time
-        posterId = id
-        id = photoId
+    init(photoReference:String,timestampReference:NSDate,userId:String){
+        photo = photoReference
+        timeStamp = timestampReference
+        owner = userId
+       // image = UIImage(contentsOfFile: "test.jpg")
     
     }
 }

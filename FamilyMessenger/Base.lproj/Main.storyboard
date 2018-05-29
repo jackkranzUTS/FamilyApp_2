@@ -71,10 +71,10 @@
             </objects>
             <point key="canvasLocation" x="436" y="-663"/>
         </scene>
-        <!--Item 2-->
+        <!--Family-->
         <scene sceneID="vMo-9A-LX7">
             <objects>
-                <viewController id="DO6-rb-9dz" sceneMemberID="viewController">
+                <viewController title="Family" id="DO6-rb-9dz" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="K1i-k1-8fH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -110,6 +110,15 @@
                     <view key="view" contentMode="scaleToFill" id="Hlt-wH-oB9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Family Page, Shows members of family" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gmc-I5-ZSJ">
+                                <rect key="frame" x="48" y="229" width="298" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="8Yk-QH-fYm"/>
                     </view>
@@ -126,6 +135,15 @@
                     <view key="view" contentMode="scaleToFill" id="BMi-Oi-1gF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Profile Page, shows current user's profile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HaD-p6-pbb">
+                                <rect key="frame" x="47" y="204" width="312" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="Pkh-cN-dDd"/>
                     </view>
@@ -134,7 +152,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bfz-bZ-Myx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1406" y="255"/>
+            <point key="canvasLocation" x="1405.5999999999999" y="254.12293853073464"/>
         </scene>
         <!--title-->
         <scene sceneID="46t-nB-mKm">
@@ -142,6 +160,7 @@
                 <tabBarController id="2Ow-IR-aoS" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" title="title" id="neh-o3-ep5">
                         <barButtonItem key="leftBarButtonItem" title="Logout" id="ZQa-7h-2dI"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="ECG-R1-Tgy"/>
                     </navigationItem>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="C9F-Jj-NCf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
@@ -166,6 +185,15 @@
                     <view key="view" contentMode="scaleToFill" id="Qwb-Kw-Sak">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="News Feed, Table cells have a photo and a name and timestamp" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MWF-B3-iTv">
+                                <rect key="frame" x="49" y="183" width="277" height="157"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="BD6-fO-gdO"/>
                     </view>
@@ -174,7 +202,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZvC-qm-wFy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2348" y="-1659"/>
+            <point key="canvasLocation" x="2348" y="-1659.2203898050975"/>
         </scene>
     </scenes>
 </document>

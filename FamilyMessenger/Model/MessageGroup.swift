@@ -10,9 +10,9 @@ import Foundation
 class MessageGroup{
     
     var id = 0
-    var memberIds:[Int]
+    var memberIds:[String]
     
-    init(members:[Int]){
+    init(members:[String]){
         
         memberIds = members
     }
