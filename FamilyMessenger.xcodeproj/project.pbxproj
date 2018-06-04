@@ -10,6 +10,7 @@
 		DF3C591C89BE9DF00414B2A7 /* Pods_FamilyMessengerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F118F6DDE120E009D244C91C /* Pods_FamilyMessengerUITests.framework */; };
 		E2A50FB15F1D4750C6006639 /* Pods_FamilyMessengerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEB19EA1EE2A22FFB0D58A13 /* Pods_FamilyMessengerTests.framework */; };
 		EB85A22299C38907078B5246 /* Pods_FamilyMessenger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D74925F89E42CADEF75F4F6 /* Pods_FamilyMessenger.framework */; };
+		F7056D1620C4DCF500B24F9F /* FamilyDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7056D1520C4DCF500B24F9F /* FamilyDB.swift */; };
 		F72FB59420B3E63500E63D0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72FB59320B3E63500E63D0E /* AppDelegate.swift */; };
 		F72FB59620B3E63500E63D0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72FB59520B3E63500E63D0E /* ViewController.swift */; };
 		F72FB59920B3E63500E63D0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F72FB59720B3E63500E63D0E /* Main.storyboard */; };
@@ -50,6 +51,7 @@
 		D20CB18B3530879791A1D526 /* Pods-FamilyMessengerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FamilyMessengerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FamilyMessengerTests/Pods-FamilyMessengerTests.release.xcconfig"; sourceTree = "<group>"; };
 		EC5EFF05EE41CEF083D9B504 /* Pods-FamilyMessengerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FamilyMessengerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FamilyMessengerUITests/Pods-FamilyMessengerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F118F6DDE120E009D244C91C /* Pods_FamilyMessengerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FamilyMessengerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7056D1520C4DCF500B24F9F /* FamilyDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyDB.swift; sourceTree = "<group>"; };
 		F72FB59020B3E63500E63D0E /* FamilyMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FamilyMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F72FB59320B3E63500E63D0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F72FB59520B3E63500E63D0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 			children = (
 				F7D64F5820B5248E0025764B /* Model */,
 				F72FB59320B3E63500E63D0E /* AppDelegate.swift */,
+				F7056D1520C4DCF500B24F9F /* FamilyDB.swift */,
 				F72FB59520B3E63500E63D0E /* ViewController.swift */,
 				F740C9A920B3E8DF009AB572 /* GoogleService-Info.plist */,
 				F72FB59720B3E63500E63D0E /* Main.storyboard */,
@@ -414,6 +417,7 @@
 				F72FB59620B3E63500E63D0E /* ViewController.swift in Sources */,
 				F72FB59420B3E63500E63D0E /* AppDelegate.swift in Sources */,
 				F7D64F5420B524540025764B /* Family.swift in Sources */,
+				F7056D1620C4DCF500B24F9F /* FamilyDB.swift in Sources */,
 				F7D64F5C20B7F29A0025764B /* MessageGroup.swift in Sources */,
 				F7D64F6020B7F9890025764B /* User.swift in Sources */,
 			);
@@ -583,9 +587,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PEB565VKZ2;
 				INFOPLIST_FILE = FamilyMessenger/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.MCJ.FamilyMessenger;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kranzkie.FamilyMessenger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -598,9 +604,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PEB565VKZ2;
 				INFOPLIST_FILE = FamilyMessenger/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.MCJ.FamilyMessenger;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kranzkie.FamilyMessenger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

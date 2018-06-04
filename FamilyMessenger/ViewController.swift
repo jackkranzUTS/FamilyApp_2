@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var passwordField: UITextField!
     
     var handle:AuthStateDidChangeListenerHandle?
+    var db:FamilyDB?
     
     
     
@@ -53,6 +54,8 @@ class ViewController: UIViewController {
         Auth.auth().createUser(withEmail: username, password: password) { (authResult, error) in
             if authResult?.user != nil{
                 self.login()
+                
+               // self.db?.createUser(authID: (authResult?.user.uid)!, family: "kranztext", profilePic: "n/A", username: self.usernameField.text!, child: false)
             }
         }
     }

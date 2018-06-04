@@ -10,15 +10,15 @@ import Foundation
 class User{
     
     var username:String
-    var authID:String?
-    var family:String
-    var profilePic:String
+    var authID:String
+    var family:String?
+    var profilePic:String?
+    var child:Bool?
     
-    init(usernameReference:String,familyReference:String,profilePicReference:String){
+    init(usernameReference:String,authIDReference:String){
         
         username = usernameReference
-        family = familyReference
-        profilePic = profilePicReference
+        authID = authIDReference
         
         
     }
